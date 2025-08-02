@@ -1,0 +1,196 @@
+2025-08-01 18:26:30,287 - __main__ - INFO - Environment variables loaded successfully
+2025-08-01 18:26:30,331 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-01 18:26:30,357 - google_sheets - INFO - Successfully authenticated with Google Sheets API
+2025-08-01 18:26:30,357 - message_generator - INFO - Successfully configured Gemini API
+2025-08-01 18:26:30,357 - __main__ - INFO - All components initialized successfully
+2025-08-01 18:26:30,357 - __main__ - INFO - Testing API connections...
+2025-08-01 18:26:33,159 - google_sheets - ERROR - HTTP error reading from Google Sheets: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1QOovDHyXwn0TF9PHv1wqkuaIsukAM6SfY7zOtADxweo/values/Sheet1%21A%3AE?alt=json returned "Unable to parse range: Sheet1!A:E". Details: "Unable to parse range: Sheet1!A:E">
+2025-08-01 18:26:33,261 - message_generator - INFO - Testing message generation...
+2025-08-01 18:26:35,319 - message_generator - ERROR - Error generating message for Test User: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-08-01 18:26:35,319 - message_generator - ERROR - Test failed!
+2025-08-01 18:26:39,131 - sender - INFO - Gmail connection test successful
+2025-08-01 18:26:39,339 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-08-01 18:26:39,339 - twilio.http_client - INFO - GET Request: https://api.twilio.com/2010-04-01/Accounts/AC05c674b54b12f16c8e672f32f25c046c.json
+2025-08-01 18:26:39,339 - twilio.http_client - INFO - Headers:
+2025-08-01 18:26:39,339 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.0rc1
+2025-08-01 18:26:39,339 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-08-01 18:26:39,339 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-08-01 18:26:39,339 - twilio.http_client - INFO - Accept : application/json
+2025-08-01 18:26:39,339 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-08-01 18:26:40,381 - twilio.http_client - INFO - Response Status Code: 200
+2025-08-01 18:26:40,381 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '527', 'Connection': 'keep-alive', 'Date': 'Fri, 01 Aug 2025 12:56:40 GMT', 'Content-Encoding': 'gzip', 'ETag': '7513f27eb61ecb065ad28a801edc2763--gzip', 'Last-Modified': 'Fri, 01 Aug 2025 12:37:33 +0000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQc88f46171ee07a783ed384e7934c4ac7', 'Twilio-Request-Duration': '0.035', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Vary': 'Accept-Encoding, Origin', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 ea84202b1f8397767f86ec3f00985a12.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'UrpLd9Wfnp6JI4Q_H3zRliCubZN0KM3HBDx9EJnZ7SmO3OTjmnk27g==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none'}
+2025-08-01 18:26:40,381 - sender - INFO - Twilio connection test successful
+2025-08-01 18:28:38,731 - __main__ - INFO - Environment variables loaded successfully
+2025-08-01 18:28:38,774 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-01 18:28:38,778 - google_sheets - INFO - Successfully authenticated with Google Sheets API
+2025-08-01 18:28:38,779 - message_generator - INFO - Successfully configured Gemini API
+2025-08-01 18:28:38,779 - __main__ - INFO - All components initialized successfully
+2025-08-01 18:28:38,779 - __main__ - INFO - Testing API connections...
+2025-08-01 18:28:40,842 - google_sheets - INFO - Successfully read 2 leads from sheet
+2025-08-01 18:28:40,843 - __main__ - INFO - SUCCESS: Google Sheets: Connected successfully (2 leads found)
+2025-08-01 18:28:40,843 - message_generator - INFO - Testing message generation...
+2025-08-01 18:28:43,150 - message_generator - INFO - Generated message for Test User
+2025-08-01 18:28:43,150 - message_generator - INFO - Test successful!
+2025-08-01 18:28:43,150 - __main__ - INFO - SUCCESS: Gemini API: Connected successfully
+2025-08-01 18:28:46,599 - sender - INFO - Gmail connection test successful
+2025-08-01 18:28:46,798 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-08-01 18:28:46,798 - twilio.http_client - INFO - GET Request: https://api.twilio.com/2010-04-01/Accounts/AC05c674b54b12f16c8e672f32f25c046c.json
+2025-08-01 18:28:46,798 - twilio.http_client - INFO - Headers:
+2025-08-01 18:28:46,798 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.0rc1
+2025-08-01 18:28:46,798 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-08-01 18:28:46,806 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-08-01 18:28:46,806 - twilio.http_client - INFO - Accept : application/json
+2025-08-01 18:28:46,806 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-08-01 18:28:47,398 - twilio.http_client - INFO - Response Status Code: 200
+2025-08-01 18:28:47,398 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '527', 'Connection': 'keep-alive', 'Date': 'Fri, 01 Aug 2025 12:58:47 GMT', 'Content-Encoding': 'gzip', 'ETag': '7513f27eb61ecb065ad28a801edc2763--gzip', 'Last-Modified': 'Fri, 01 Aug 2025 12:37:33 +0000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ74ca207a22cb8c79b861a9ad77d63ab9', 'Twilio-Request-Duration': '0.017', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Vary': 'Accept-Encoding, Origin', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 e7158c7eed7a852dfc0a0b538680e072.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'LBMS8_TA-5Mdqtawv7SZMrJsgMh0_fM6z5llj9BekYJ1TqhJQeVXOw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none'}
+2025-08-01 18:28:47,398 - sender - INFO - Twilio connection test successful
+2025-08-01 18:28:47,398 - __main__ - INFO - SUCCESS: Gmail SMTP: Connected successfully
+2025-08-01 18:28:47,398 - __main__ - INFO - SUCCESS: Twilio WhatsApp: Connected successfully
+2025-08-01 18:32:03,262 - __main__ - INFO - Environment variables loaded successfully
+2025-08-01 18:32:03,324 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-01 18:32:03,328 - google_sheets - INFO - Successfully authenticated with Google Sheets API
+2025-08-01 18:32:03,328 - message_generator - INFO - Successfully configured Gemini API
+2025-08-01 18:32:03,332 - __main__ - INFO - All components initialized successfully
+2025-08-01 18:32:03,332 - __main__ - INFO - Starting outreach campaign (test_mode=True)
+2025-08-01 18:32:05,747 - google_sheets - INFO - Successfully read 2 leads from sheet
+2025-08-01 18:32:05,748 - google_sheets - INFO - Found 2 pending leads
+2025-08-01 18:32:05,748 - __main__ - INFO - Processing 2 pending leads...
+2025-08-01 18:32:05,748 - __main__ - INFO - Processing lead: Lokesh (universalnothing00@gmail.com)
+2025-08-01 18:32:08,365 - message_generator - INFO - Generated message for Lokesh
+2025-08-01 18:32:08,365 - sender - INFO - TEST MODE: Would send to Lokesh (universalnothing00@gmail.com)
+2025-08-01 18:32:08,368 - sender - INFO - Message: Hi Lokesh,
+
+Hope you're having a great day!  We noticed your interest in Machine Learning from Chandigarh.  We offer a range of resources and training to help you excel in this field.
+
+Would you be open to a quick 15-minute call to discuss your goals and how we can help?
+2025-08-01 18:32:08,368 - __main__ - INFO - SUCCESS: Test mode - message not actually sent
+2025-08-01 18:32:09,368 - __main__ - INFO - Processing lead: Abhishek (919523860283)
+2025-08-01 18:32:10,253 - message_generator - INFO - Generated message for Abhishek
+2025-08-01 18:32:10,258 - sender - INFO - TEST MODE: Would send to Abhishek (919523860283)
+2025-08-01 18:32:10,258 - sender - INFO - Message: Hi Abhishek,
+
+Hope you're having a great day!  We noticed your interest in cybersecurity from Delhi. We offer a range of cybersecurity solutions tailored to businesses in your region.  Would you be open to a quick 15-minute call to discuss your needs?
+2025-08-01 18:32:10,259 - __main__ - INFO - SUCCESS: Test mode - message not actually sent
+2025-08-01 18:32:11,260 - __main__ - INFO - Campaign completed! Success: 2, Errors: 0
+2025-08-01 18:33:50,404 - __main__ - INFO - Environment variables loaded successfully
+2025-08-01 18:33:50,472 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-01 18:33:50,479 - google_sheets - INFO - Successfully authenticated with Google Sheets API
+2025-08-01 18:33:50,479 - message_generator - INFO - Successfully configured Gemini API
+2025-08-01 18:33:50,481 - __main__ - INFO - All components initialized successfully
+2025-08-01 18:33:50,481 - __main__ - INFO - Starting outreach campaign (test_mode=False)
+2025-08-01 18:33:52,652 - google_sheets - INFO - Successfully read 2 leads from sheet
+2025-08-01 18:33:52,654 - google_sheets - INFO - Found 2 pending leads
+2025-08-01 18:33:52,654 - __main__ - INFO - Processing 2 pending leads...
+2025-08-01 18:33:52,654 - __main__ - INFO - Processing lead: Lokesh (universalnothing00@gmail.com)
+2025-08-01 18:33:55,100 - message_generator - INFO - Generated message for Lokesh
+2025-08-01 18:34:01,617 - sender - INFO - Email sent successfully to Lokesh (universalnothing00@gmail.com)
+2025-08-01 18:34:01,617 - __main__ - INFO - SUCCESS: Email sent successfully to Lokesh (universalnothing00@gmail.com)
+2025-08-01 18:34:02,447 - google_sheets - INFO - Updated row 2 status to 'Sent'
+2025-08-01 18:34:03,450 - __main__ - INFO - Processing lead: Abhishek (919523860283)
+2025-08-01 18:34:04,375 - message_generator - INFO - Generated message for Abhishek
+2025-08-01 18:34:04,689 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-08-01 18:34:04,690 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC05c674b54b12f16c8e672f32f25c046c/Messages.json
+2025-08-01 18:34:04,690 - twilio.http_client - INFO - Headers:
+2025-08-01 18:34:04,690 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.0rc1
+2025-08-01 18:34:04,690 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-08-01 18:34:04,690 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-08-01 18:34:04,690 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-08-01 18:34:04,690 - twilio.http_client - INFO - Accept : application/json
+2025-08-01 18:34:04,690 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-08-01 18:34:05,452 - twilio.http_client - INFO - Response Status Code: 400
+2025-08-01 18:34:05,452 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '154', 'Connection': 'keep-alive', 'Date': 'Fri, 01 Aug 2025 13:04:05 GMT', 'X-Twilio-Error-Code': '21211', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ6450750aa949eb0884e9d1c0d3ea6ea5', 'Twilio-Request-Duration': '0.062', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 fc93b40927ecc3b1d5e4fffeca69b042.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'pPS9jm_gkYnxM_5I_kEpWnWudQlQRGuU3-vFYSNzwuLUUPUQGfgrjg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-08-01 18:34:05,452 - sender - ERROR - Failed to send WhatsApp to Abhishek (+1919523860283): 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC05c674b54b12f16c8e672f32f25c046c/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The 'To' number +1919523860283 is not a valid phone number.[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21211[0m
+
+
+2025-08-01 18:34:05,452 - __main__ - ERROR - ERROR: Failed to send WhatsApp to Abhishek (+1919523860283): 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC05c674b54b12f16c8e672f32f25c046c/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The 'To' number +1919523860283 is not a valid phone number.[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21211[0m
+
+
+2025-08-01 18:34:06,297 - google_sheets - INFO - Updated row 3 status to 'Error'
+2025-08-01 18:34:07,298 - __main__ - INFO - Campaign completed! Success: 1, Errors: 1
+2025-08-01 18:35:19,954 - __main__ - INFO - Environment variables loaded successfully
+2025-08-01 18:35:20,000 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-01 18:35:20,000 - google_sheets - INFO - Successfully authenticated with Google Sheets API
+2025-08-01 18:35:20,007 - message_generator - INFO - Successfully configured Gemini API
+2025-08-01 18:35:20,008 - __main__ - INFO - All components initialized successfully
+2025-08-01 18:35:20,008 - __main__ - INFO - Looking for failed leads to retry...
+2025-08-01 18:35:22,333 - google_sheets - INFO - Successfully read 2 leads from sheet
+2025-08-01 18:35:22,339 - __main__ - INFO - No failed leads found.
+2025-08-01 18:35:53,189 - __main__ - INFO - Environment variables loaded successfully
+2025-08-01 18:35:53,237 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-01 18:35:53,241 - google_sheets - INFO - Successfully authenticated with Google Sheets API
+2025-08-01 18:35:53,242 - message_generator - INFO - Successfully configured Gemini API
+2025-08-01 18:35:53,242 - __main__ - INFO - All components initialized successfully
+2025-08-01 18:35:53,242 - __main__ - INFO - Starting outreach campaign (test_mode=False)
+2025-08-01 18:35:55,567 - google_sheets - INFO - Successfully read 2 leads from sheet
+2025-08-01 18:35:55,571 - google_sheets - INFO - Found 2 pending leads
+2025-08-01 18:35:55,571 - __main__ - INFO - Processing 2 pending leads...
+2025-08-01 18:35:55,571 - __main__ - INFO - Processing lead: Lokesh (universalnothing00@gmail.com)
+2025-08-01 18:35:58,138 - message_generator - INFO - Generated message for Lokesh
+2025-08-01 18:36:03,139 - sender - INFO - Email sent successfully to Lokesh (universalnothing00@gmail.com)
+2025-08-01 18:36:03,139 - __main__ - INFO - SUCCESS: Email sent successfully to Lokesh (universalnothing00@gmail.com)
+2025-08-01 18:36:03,820 - google_sheets - INFO - Updated row 2 status to 'Sent'
+2025-08-01 18:36:04,821 - __main__ - INFO - Processing lead: Abhishek (9523860283)
+2025-08-01 18:36:05,808 - message_generator - INFO - Generated message for Abhishek
+2025-08-01 18:36:06,080 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-08-01 18:36:06,080 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC05c674b54b12f16c8e672f32f25c046c/Messages.json
+2025-08-01 18:36:06,087 - twilio.http_client - INFO - Headers:
+2025-08-01 18:36:06,087 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.0rc1
+2025-08-01 18:36:06,087 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-08-01 18:36:06,090 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-08-01 18:36:06,090 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-08-01 18:36:06,090 - twilio.http_client - INFO - Accept : application/json
+2025-08-01 18:36:06,090 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-08-01 18:36:06,829 - twilio.http_client - INFO - Response Status Code: 201
+2025-08-01 18:36:06,829 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1107', 'Connection': 'keep-alive', 'Date': 'Fri, 01 Aug 2025 13:06:06 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ329fcff1aed2fe2281b48dfc841df0e4', 'Twilio-Request-Duration': '0.097', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 fc93b40927ecc3b1d5e4fffeca69b042.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'fSS4Ix0ehBkw1ajpWjHkqe-GsS-uZwZ5BH4TvdM3cJWCg8vuiQdsPg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-08-01 18:36:06,830 - sender - INFO - WhatsApp sent successfully to Abhishek (+19523860283)
+2025-08-01 18:36:06,830 - __main__ - INFO - SUCCESS: WhatsApp sent successfully to Abhishek (+19523860283)
+2025-08-01 18:36:07,421 - google_sheets - INFO - Updated row 3 status to 'Sent'
+2025-08-01 18:36:08,426 - __main__ - INFO - Campaign completed! Success: 2, Errors: 0
+2025-08-01 18:47:14,613 - __main__ - INFO - Environment variables loaded successfully
+2025-08-01 18:47:14,661 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-01 18:47:14,668 - google_sheets - INFO - Successfully authenticated with Google Sheets API
+2025-08-01 18:47:14,668 - message_generator - INFO - Successfully configured Gemini API
+2025-08-01 18:47:14,668 - __main__ - INFO - All components initialized successfully
+2025-08-01 18:47:14,668 - __main__ - INFO - Starting outreach campaign (test_mode=False)
+2025-08-01 18:47:17,105 - google_sheets - INFO - Successfully read 2 leads from sheet
+2025-08-01 18:47:17,105 - google_sheets - INFO - Found 1 pending leads
+2025-08-01 18:47:17,105 - __main__ - INFO - Processing 1 pending leads...
+2025-08-01 18:47:17,105 - __main__ - INFO - Processing lead: Abhishek (9523860283)
+2025-08-01 18:47:19,754 - message_generator - INFO - Generated message for Abhishek
+2025-08-01 18:47:20,188 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-08-01 18:47:20,188 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC05c674b54b12f16c8e672f32f25c046c/Messages.json
+2025-08-01 18:47:20,188 - twilio.http_client - INFO - Headers:
+2025-08-01 18:47:20,188 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.0rc1
+2025-08-01 18:47:20,188 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-08-01 18:47:20,188 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-08-01 18:47:20,188 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-08-01 18:47:20,188 - twilio.http_client - INFO - Accept : application/json
+2025-08-01 18:47:20,188 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-08-01 18:47:21,156 - twilio.http_client - INFO - Response Status Code: 201
+2025-08-01 18:47:21,161 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1036', 'Connection': 'keep-alive', 'Date': 'Fri, 01 Aug 2025 13:17:21 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ5636210c7e3c9b7ed317f32b89381f96', 'Twilio-Request-Duration': '0.157', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 257559d7c2212e84088f15caf515f5a2.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'LtHWEtgs9EEBjhUxT9J4cVGDtR-AM6zxPigZFSSzRiXyKkf52Ac_pw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-08-01 18:47:21,161 - sender - INFO - WhatsApp sent successfully to Abhishek (+919523860283)
+2025-08-01 18:47:21,161 - __main__ - INFO - SUCCESS: WhatsApp sent successfully to Abhishek (+919523860283)
+2025-08-01 18:47:21,765 - google_sheets - INFO - Updated row 3 status to 'Sent'
+2025-08-01 18:47:22,768 - __main__ - INFO - Campaign completed! Success: 1, Errors: 0
